@@ -1,0 +1,84 @@
+.home {
+    margin: 0;
+}
+
+.hero{
+    position: relative;
+}
+.row {
+    display: flex;
+
+}
+
+.left h1 {
+    color: rgb(28, 28, 96);
+    font-size: 90px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.left p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: rgb(86, 86, 86);
+}
+
+.left .btn {
+    margin-top: 20px;
+}
+
+.company {
+    color: #ff8400;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: double;
+    font-style: bold;
+}
+
+.herofooter{
+    position: absolute;
+    top: 90%;
+  height: 170px;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  background: linear-gradient(to right, #ffff 0%  ,#fff 30% ,  #a752aa 80% , #c7379e 100%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .left {
+        margin-top: 50px;
+    }
+
+    .left h1 {
+        color: rgb(28, 28, 96);
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .right img {
+        height: 400px;   
+    }
+    .container{
+        margin: 20 30px;
+    }
+
+}
