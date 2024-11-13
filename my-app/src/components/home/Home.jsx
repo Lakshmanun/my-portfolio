@@ -1,15 +1,20 @@
 import React from 'react'
-import Navbar from '../navbar/Navbar'
 import './home.css'
 import Hero from './Hero'
+import About from '../about/About'
+import Services from '../services/Services'
+import Projects from '../projects/Projects'
 export default function Home() {
   return (
-  <>
-<div className="home">
+    <>
+      <div className="home">
 
-<Navbar/>
-<Hero/>
-</div>
-  </>
+
+        <Hero />
+        <About />
+        <Services/>
+        <Projects/>
+      </div>
+    </>
   )
 }

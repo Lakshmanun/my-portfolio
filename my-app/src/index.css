@@ -9,17 +9,32 @@ body{
 
 }
 .container{
-    margin: 85px;
+    margin: 82px;
+}
+h1 {
+    color: rgb(28, 28, 96);
+    font-size: 90px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: rgb(86, 86, 86);
 }
 .btn{
-    background-color: #ff9900;
+    background-color: #ee9014;
     padding: 10px 20px;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
+    font-family: monospace;
     border: none;
-    width: 140px;
+    width: 150px;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 .btn:hover{

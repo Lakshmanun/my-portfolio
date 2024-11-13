@@ -1,0 +1,122 @@
+.detial h1 {
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.about {
+    margin-top: 70px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+.about .left {
+    flex: 2;
+    background-color: #E7CCCC;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.detial {
+    cursor: pointer;
+    display: flex;
+    padding: 15px 15px;
+    gap: 20px;
+    align-items: center;
+    background-color: #fff;
+    margin: 30px;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+.detial:hover {
+ scale: 1.1;
+}
+
+.about .left p {
+    font-weight: 400;
+    color: #606060;
+    font-size: 18px;
+
+}
+
+.detial .img {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 208, 139);
+    border-radius: 50%;
+
+
+}
+
+.detial img {
+    margin-top: 30%;
+    margin-left: 20%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+
+}
+
+.aboutrow {
+    display: flex;
+
+}
+
+.aboutright {
+    flex: 2;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-top: 100px;
+}
+
+.aboutright h1 {
+    color: rgb(28, 28, 96);
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.aboutright span {
+    color: #ff8400;
+}
+
+.aboutright p {
+    color: #6a6a6a;
+}
+
+.aboutright button {
+    margin-top: 30px;
+}
+
+.aboutright .btn {
+    width: 180px;
+
+}
+
+@media screen and (max-width:768px) {
+    .aboutrow {
+        margin-top: 380px;
+        margin-left: 0px;
+    }
+
+    .aboutrow .left {
+        margin-left: 50px;
+        margin-right: 0;
+    }
+
+    .aboutrow {
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
