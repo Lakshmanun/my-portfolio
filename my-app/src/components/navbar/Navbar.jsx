@@ -6,7 +6,7 @@ export default function Navbar() {
   const [menu, openmenu] = useState(false);
   return (
     <>
-      <nav>
+      <nav className=''>
         <div className="logo"> Mrstudio</div>
         <div className='navbar'>
           <ul className={menu ? "mobileview" : "menu"}>

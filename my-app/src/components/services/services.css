@@ -8,7 +8,7 @@
 }
 
 .services {
-    margin-top: -82px;
+ 
     padding-bottom: 20px;
     padding-top: 10px;
     background-color: #fff;
@@ -92,8 +92,11 @@
 }
 
 .satistic {
+  
+    padding-bottom: 20px;
+    padding-top: 10px;
     background-color: #fff;
-    margin-top: -85px;
+    position: relative;
 }
 
 .satisticrow {
